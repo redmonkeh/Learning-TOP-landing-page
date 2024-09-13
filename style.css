@@ -1,0 +1,30 @@
+
+body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height:100%;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+header, footer, #one {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+
+#two {
+    color: #1F2937;
+}
+
+#three {
+    background-color:#E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+#four {
+    color:#FFF;
+}
