@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10% 0 10%;
+    padding: 0 25% 0 25%;
 
 }
 
@@ -133,7 +133,7 @@ content {
 }
 
 section {
-    padding: 2% 10% 4% 10%;
+    padding: 0 25% 0 25%;
 }
 
 #one {
@@ -141,10 +141,13 @@ section {
     color: #E5E7EB;
     display: grid;
     grid-template-columns: 50% 50%;
+    gap: 5%;
+    padding-top: 6%;
+    padding-bottom: 7%;
 }
 
 .hero-blurb {
-    padding: 0;
+    padding: 5% 0 5% 0;
 }
 
 .hero-imageholder {
@@ -156,30 +159,45 @@ section {
 #two {
     text-align: center;
     color: #1F2937;
+    padding-top: 4%;
+    padding-bottom: 7%;
 }
 
 .info-item-container{
-    display:flex;
+    display:grid;
+    grid-template-columns: 18% 18% 18% 18%;
     justify-content:center;
+    gap: 30px;
 }
 
 .info-item-container div, .info-item-container p {
-    width: 200px;
-    margin: 0 30px 0 30px;
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+.info-item-container div{
+    margin: auto;
 }
 
 .info-image{
-    border: 3px solid #3882F6;
-    height:200px;
-    width: auto;
+    margin: 5px;
+    border: 4px solid #3882F6;
+    width: 155px;
+    height: 155px;
+
 }
 
 #three {
     background-color:#E5E7EB;
     color: #1F2937;
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+
+#three p{
+    padding: 0 8% 0 8%;
 }
 
 .signature {
@@ -217,3 +235,4 @@ footer {
     padding-bottom: 1.5%;
     text-align: center;
 }
+
