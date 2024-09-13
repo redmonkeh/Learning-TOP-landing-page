@@ -6,16 +6,29 @@ body {
     height:100%;
     font-size: 18px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color:#FF00FF;
 }
 
-header, footer, #one {
+header {
     background-color: #1F2937;
     color: #E5E7EB;
+    display: flex;
+    padding: 0 10% 0 10%;
 }
 
+#one {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    padding: 0 10% 0 10%;
+}
 
 #two {
     color: #1F2937;
+    padding: 0 10% 0 10%;
 }
 
 #three {
@@ -23,8 +36,17 @@ header, footer, #one {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+    padding: 0 10% 0 10%;
 }
 
 #four {
     color:#FFF;
+    padding: 0 10% 0 10%;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 0 10% 0 10%;
+    text-align: center;
 }
