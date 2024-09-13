@@ -20,13 +20,18 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 10% 0 10%;
-    border: 1px solid #00FF00;
 
 }
 
 a {
     text-decoration:none;
     color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
 }
 
 h3 {
@@ -38,16 +43,35 @@ nav ul li{
     padding: 0 0 0 20px;
 }
 
+content {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+section {
+    padding: 4% 10% 4% 10%;
+}
+
 #one {
     background-color: #1F2937;
     color: #E5E7EB;
-    display: flex;
-    padding: 0 10% 0 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.hero-blurb {
+    padding: 0;
+}
+
+.hero-imageholder {
+    background-color:#6D747D;
+    text-align: center;
+    align-content: center;
 }
 
 #two {
     color: #1F2937;
-    padding: 0 10% 0 10%;
 }
 
 #three {
@@ -55,12 +79,10 @@ nav ul li{
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
-    padding: 0 10% 0 10%;
 }
 
 #four {
     color:#FFF;
-    padding: 0 10% 0 10%;
 }
 
 footer {
