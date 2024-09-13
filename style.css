@@ -16,7 +16,26 @@ header {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 10% 0 10%;
+    border: 1px solid #00FF00;
+
+}
+
+a {
+    text-decoration:none;
+    color: #E5E7EB;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 0 0 0 20px;
 }
 
 #one {
