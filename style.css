@@ -34,8 +34,18 @@ h1 {
     margin: 0;
 }
 
+h2{
+    font-size:36px;
+    font-weight: 900;
+    margin: 0 0 50px 0;
+}
+
 h3 {
     font-size: 24px;
+}
+
+p {
+    padding:5px;
 }
 
 nav ul li{
@@ -50,7 +60,7 @@ content {
 }
 
 section {
-    padding: 4% 10% 4% 10%;
+    padding: 2% 10% 4% 10%;
 }
 
 #one {
@@ -71,7 +81,25 @@ section {
 }
 
 #two {
+    text-align: center;
     color: #1F2937;
+}
+
+.info-item-container{
+    display:flex;
+    justify-content:center;
+}
+
+.info-item-container div, .info-item-container p {
+    width: 200px;
+    margin: 0 30px 0 30px;
+    border-radius: 20px;
+}
+
+.info-image{
+    border: 3px solid #3882F6;
+    height:200px;
+    width: auto;
 }
 
 #three {
