@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color:#FF00FF;
 }
 
 header {
@@ -119,6 +118,7 @@ h3 {
 
 p {
     padding:5px;
+    margin: 0px;
 }
 
 nav ul li{
@@ -192,11 +192,28 @@ section {
 
 #four {
     color:#FFF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.action-container{
+    display: flex;
+    background-color:#3882F6;
+    border-radius: 10px;
+    padding: 2% 10% 2% 10%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.action-container h3 {
+    margin:5px;
+    padding:0;
 }
 
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 0 10% 0 10%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     text-align: center;
 }
